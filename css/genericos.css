@@ -1,0 +1,53 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  min-width: 100px;
+  height: 2rem;
+
+  margin: 5px;
+  border-radius: 2em;
+
+  cursor: pointer;
+}
+button.boton-principal {
+  color: white;
+
+  background-color: rgb(10, 50, 255, 0.8);
+}
+button.boton-secundario {
+  color: white;
+  cursor: pointer;
+  background-color: rgba(56, 172, 33, 0.7);
+}
+button.boton-principal:hover {
+  background-color: rgb(10, 50, 255, 1);
+}
+button.boton-secundario:hover {
+  background-color: rgb(56, 172, 33, 1);
+}
+
+.fab {
+  font-size: 2rem;
+}
