@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @import url("nav.css");
-@import url("main.css");
 @import url("footer.css");
 @import url("genericos.css");
 
@@ -40,10 +39,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: white;
 }
 .main {
   grid-area: main;
-  background-image: url(https://agenciamarketingonline.io/wp-content/uploads/2019/07/AdobeStock_227207295.jpeg);
+  background-image: url(../img/fondo1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -51,7 +51,7 @@ body {
 
 .aside {
   grid-area: aside;
-  background-image: url(https://t4.ftcdn.net/jpg/03/08/28/69/360_F_308286950_IgZ1t5YNpv2ik4C5QJLdXu88vy2bZkKh.jpg);
+  background-image: url(../img/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

@@ -9,6 +9,12 @@ class ColeccionElementos extends Array {
     addClass = (clase) => {
       this.forEach((elem) => elem.classList.add(clase));
     };
+    get = (index) => {
+      return $(this[index])
+    }
+    each = (call) => {
+      this.forEach((elem) => call(elem));
+    };
   }
 
   const $ = (dir) =>

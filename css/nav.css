@@ -39,15 +39,15 @@ nav ul.navbar li a:hover {
   background-color: rgb(0, 0, 0, 0.2);
 }
 .hamburguesa{
-  display: hidden;
+  display: none;
 }
 @media screen and (max-width: 1079px) {
   .logo{
     min-width: 90vw;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
   }
-  .logo h1, nav, .login {
+  nav, .login {
     display: none!important;
   }
 

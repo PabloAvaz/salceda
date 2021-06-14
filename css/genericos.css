@@ -47,7 +47,9 @@ button.boton-principal:hover {
 button.boton-secundario:hover {
   background-color: rgb(56, 172, 33, 1);
 }
-
+*:hover{
+  transition: all 1s;
+}
 .fab {
   font-size: 2rem;
 }
